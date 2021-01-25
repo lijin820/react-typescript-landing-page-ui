@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 
-import "./App.css";
+import "./App.scss";
 
 function App(): ReactElement {
   return <div>Landing Page</div>;
