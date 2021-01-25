@@ -16,7 +16,7 @@ function App(): ReactElement {
   return (
     <div className="landing">
       <Row className="home-section">
-        <Col md={{ span: 10, offset: 2 }}>
+        <Col md={{ span: 10, offset: 2 }} xs={{ span: 22, offset: 1 }}>
           <div>
             <span className="big-title">Quadpay anywhere</span>
           </div>
@@ -38,13 +38,13 @@ function App(): ReactElement {
         </Col>
       </Row>
       <Row className="content-section">
-        <Col md={{ span: 20, offset: 2 }}>
+        <Col md={{ span: 20, offset: 2 }} xs={{ span: 22, offset: 1 }}>
           <Row>
             <Col>
               <span className="secondary-text">Partnering with Quadpay</span>
             </Col>
           </Row>
-          <Row style={{ marginTop: 70 }}>
+          <Row className="feature-list">
             <Col md={{ span: 8 }} className="feature-card">
               <img src={feature1} alt="feature-icon" className="feature-icon" />
               <div className="feature-title">

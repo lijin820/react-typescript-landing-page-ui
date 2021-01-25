@@ -12,6 +12,11 @@ $black-color: #000000;
     background-image: url("../assets/images/bg.svg");
     background-repeat: no-repeat;
     background-position: right 0 top 0;
+    @media only screen and (max-width: 600px) {
+      background-image: url("../assets/images/bg.svg");
+      background-repeat: no-repeat;
+      background-position: right 0 top 0px;
+    }
     .big-title {
       font-family: Mukta;
       font-weight: bold;
@@ -20,6 +25,9 @@ $black-color: #000000;
       line-height: 100%;
       display: inline-block;
       margin-top: 90px;
+      @media only screen and (max-width: 600px) {
+        font-size: 40px;
+      }
     }
     .description {
       font-family: Mukta;
@@ -28,12 +36,20 @@ $black-color: #000000;
       color: $white-color;
       display: inline-block;
       margin-top: 24px;
+      @media only screen and (max-width: 600px) {
+        font-size: 18px;
+      }
     }
     .button-wrapper {
       margin-top: 32px;
       display: flex;
       flex-direction: row;
       align-items: center;
+      @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 62px;
+      }
       .store-button {
         background: #ffffff;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -43,6 +59,10 @@ $black-color: #000000;
         justify-content: center;
         align-items: center;
         margin-right: 12px;
+        @media only screen and (max-width: 600px) {
+          padding: 10px;
+          margin-top: 10px;
+        }
         .appstore-icon {
           width: 15px;
         }
@@ -52,6 +72,9 @@ $black-color: #000000;
           font-size: 16px;
           font-weight: 700;
           margin-left: 13px;
+          @media only screen and (max-width: 600px) {
+            font-size: 14px;
+          }
         }
       }
     }
@@ -67,13 +90,31 @@ $black-color: #000000;
       line-height: 100%;
       display: inline-block;
       margin-top: 96px;
+      @media only screen and (max-width: 600px) {
+        font-size: 30px;
+        margin-top: 50px;
+      }
+    }
+    .feature-list {
+      margin-top: 70px;
+      @media only screen and (max-width: 600px) {
+        margin-top: 10px;
+      }
     }
     .feature-card {
       margin-top: 50px;
       padding-left: 15px;
       padding-right: 15px;
+      @media only screen and (max-width: 600px) {
+        margin-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
       .feature-icon {
         width: 60px;
+        @media only screen and (max-width: 600px) {
+          width: 40px;
+        }
       }
       .feature-title {
         font-family: Mukta;
@@ -82,6 +123,9 @@ $black-color: #000000;
         color: $black-color;
         margin-top: 32px;
         line-height: 130%;
+        @media only screen and (max-width: 600px) {
+          font-size: 24px;
+        }
       }
       .feature-description {
         font-family: Mukta;
@@ -89,6 +133,9 @@ $black-color: #000000;
         margin-top: 16px;
         color: $black-color;
         line-height: 140%;
+        @media only screen and (max-width: 600px) {
+          font-size: 16px;
+        }
       }
     }
   }
