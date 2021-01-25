@@ -13,9 +13,27 @@ $black-color: #000000;
     background-repeat: no-repeat;
     background-position: right 0 top 0;
     @media only screen and (max-width: 600px) {
-      background-image: url("../assets/images/bg.svg");
-      background-repeat: no-repeat;
-      background-position: right 0 top 0px;
+      background-image: none;
+    }
+    @media (max-width: 768px) and (min-width: 480px) {
+      background-image: none;
+    }
+    @media (max-width: 1024px) and (min-width: 768px) {
+      background-image: none;
+    }
+    .text-content {
+      @media (max-width: 768px) and (min-width: 480px) {
+        display: block;
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+        max-width: 80%;
+      }
+      @media (max-width: 1024px) and (min-width: 768px) {
+        display: block;
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+        max-width: 80%;
+      }
     }
     .big-title {
       font-family: Mukta;

@@ -16,7 +16,11 @@ function App(): ReactElement {
   return (
     <div className="landing">
       <Row className="home-section">
-        <Col md={{ span: 10, offset: 2 }} xs={{ span: 22, offset: 1 }}>
+        <Col
+          md={{ span: 10, offset: 2 }}
+          xs={{ span: 22, offset: 1 }}
+          className="text-content"
+        >
           <div>
             <span className="big-title">Quadpay anywhere</span>
           </div>
