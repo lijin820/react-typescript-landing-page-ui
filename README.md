@@ -1,4 +1,4 @@
-# React + Typescript + Ant Design + Redux boilerplate
+# React + Typescript + Ant Design Landing Page
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
