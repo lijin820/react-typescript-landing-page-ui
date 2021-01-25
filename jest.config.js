@@ -25,7 +25,7 @@ module.exports = {
     "^react-native$": "react-native-web",
     "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
     "src/(.*)$": "<rootDir>/src/$1",
-    "\\.(css|less)$": "<rootDir>/config/__mocks__/styleMock.js",
+    "\\.(css|less|scss)$": "<rootDir>/config/__mocks__/styleMock.js",
     "\\.(png|jpg|jpeg|gif|ttf|eot|svg)$":
       "<rootDir>/config/__mocks__/fileMock.js",
   },

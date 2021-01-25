@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendering render without problem 1`] = `
+<div
+  className="landing"
+>
+  <Row
+    className="home-section"
+  >
+    <Col
+      className="text-content"
+      md={
+        Object {
+          "offset": 2,
+          "span": 10,
+        }
+      }
+      xs={
+        Object {
+          "offset": 1,
+          "span": 22,
+        }
+      }
+    >
+      <div>
+        <span
+          className="big-title"
+        >
+          Quadpay anywhere
+        </span>
+      </div>
+      <div>
+        <span
+          className="description"
+        >
+          Shop your favorite brands with the Quadpay app—online or in-store.
+        </span>
+      </div>
+      <div
+        className="button-wrapper"
+      >
+        <div
+          className="store-button"
+        >
+          <img
+            alt="appstore"
+            className="appstore-icon"
+            src={Object {}}
+          />
+          <span
+            className="store-text"
+          >
+            Get on the App Store
+          </span>
+        </div>
+        <div
+          className="store-button"
+        >
+          <img
+            alt="playstore"
+            className="appstore-icon"
+            src={Object {}}
+          />
+          <span
+            className="store-text"
+          >
+            Get on Google Play
+          </span>
+        </div>
+      </div>
+    </Col>
+  </Row>
+  <Row
+    className="content-section"
+  >
+    <Col
+      md={
+        Object {
+          "offset": 2,
+          "span": 20,
+        }
+      }
+      xs={
+        Object {
+          "offset": 1,
+          "span": 22,
+        }
+      }
+    >
+      <Row>
+        <Col>
+          <span
+            className="secondary-text"
+          >
+            Partnering with Quadpay
+          </span>
+        </Col>
+      </Row>
+      <Row
+        className="feature-list"
+      >
+        <Col
+          className="feature-card"
+          md={
+            Object {
+              "span": 8,
+            }
+          }
+        >
+          <img
+            alt="feature-icon"
+            className="feature-icon"
+            src={Object {}}
+          />
+          <div
+            className="feature-title"
+          >
+            <span>
+              Make payment seamless
+            </span>
+          </div>
+          <div
+            className="feature-description"
+          >
+            <span>
+              Online or in-store, Quadpay means more flexibility at checkout.
+            </span>
+          </div>
+        </Col>
+        <Col
+          className="feature-card"
+          md={
+            Object {
+              "span": 8,
+            }
+          }
+        >
+          <img
+            alt="feature-icon"
+            className="feature-icon"
+            src={Object {}}
+          />
+          <div
+            className="feature-title"
+          >
+            <span>
+              Take on zero risk
+            </span>
+          </div>
+          <div
+            className="feature-description"
+          >
+            <span>
+              You get paid today. Your customers pay over time.
+            </span>
+          </div>
+        </Col>
+        <Col
+          className="feature-card"
+          md={
+            Object {
+              "span": 8,
+            }
+          }
+        >
+          <img
+            alt="feature-icon"
+            className="feature-icon"
+            src={Object {}}
+          />
+          <div
+            className="feature-title"
+          >
+            <span>
+              Put your customers first
+            </span>
+          </div>
+          <div
+            className="feature-description"
+          >
+            <span>
+              Interest-free installment plans with no hard credit check or impact on credit.
+            </span>
+          </div>
+        </Col>
+        <Col
+          className="feature-card"
+          md={
+            Object {
+              "span": 8,
+            }
+          }
+        >
+          <img
+            alt="feature-icon"
+            className="feature-icon"
+            src={Object {}}
+          />
+          <div
+            className="feature-title"
+          >
+            <span>
+              Accept all major cards
+            </span>
+          </div>
+          <div
+            className="feature-description"
+          >
+            <span>
+              QuadPay is the only Buy Now, Pay Later solution that accepts Amex and Discover along with Visa.
+            </span>
+          </div>
+        </Col>
+        <Col
+          className="feature-card"
+          md={
+            Object {
+              "span": 8,
+            }
+          }
+        >
+          <img
+            alt="feature-icon"
+            className="feature-icon"
+            src={Object {}}
+          />
+          <div
+            className="feature-title"
+          >
+            <span>
+              Tap into our community
+            </span>
+          </div>
+          <div
+            className="feature-description"
+          >
+            <span>
+              Introduce your brand to millions of existing QuadPay customers in our marketplace.
+            </span>
+          </div>
+        </Col>
+        <Col
+          className="feature-card"
+          md={
+            Object {
+              "span": 8,
+            }
+          }
+        >
+          <img
+            alt="feature-icon"
+            className="feature-icon"
+            src={Object {}}
+          />
+          <div
+            className="feature-title"
+          >
+            <span>
+              Track progress
+            </span>
+          </div>
+          <div
+            className="feature-description"
+          >
+            <span>
+              Easily manage customer data, order management, and reconciliation in the merchant portal.
+            </span>
+          </div>
+        </Col>
+      </Row>
+    </Col>
+  </Row>
+</div>
+`;
