@@ -7,6 +7,9 @@ $white-color: #FFFFFF;
   .home-section {
     height: 563px;
     background: $primary-color;
+    background-image: url("../assets/images/bg.svg");
+    background-repeat: no-repeat;
+    background-position: right 0 top 0;
     .big-title {
       font-family: Mukta;
       font-weight: bold;
@@ -23,6 +26,31 @@ $white-color: #FFFFFF;
       color: $white-color;
       display: inline-block;
       margin-top: 24px;
+    }
+    .button-wrapper {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .store-button {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        padding: 12px 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 12px;
+        .appstore-icon {
+          width: 15px;
+        }
+        .store-text {
+          color: $primary-color;
+          font-size: 16px;
+          font-weight: 700;
+          margin-left: 13px;
+        }
+      }
     }
   }
 }
