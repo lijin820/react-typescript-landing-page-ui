@@ -1,7 +1,9 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 
-$primary-color: #01178B;
-$white-color: #FFFFFF;
+$primary-color: #01178b;
+$secondary-color: #faf0e6;
+$white-color: #ffffff;
+$black-color: #000000;
 
 .landing {
   .home-section {
@@ -33,7 +35,7 @@ $white-color: #FFFFFF;
       flex-direction: row;
       align-items: center;
       .store-button {
-        background: #FFFFFF;
+        background: #ffffff;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 4px;
         padding: 12px 24px;
@@ -46,10 +48,47 @@ $white-color: #FFFFFF;
         }
         .store-text {
           color: $primary-color;
+          font-family: Mukta;
           font-size: 16px;
           font-weight: 700;
           margin-left: 13px;
         }
+      }
+    }
+  }
+  .content-section {
+    background: $secondary-color;
+    padding-bottom: 100px;
+    .secondary-text {
+      font-family: Mukta;
+      font-weight: bold;
+      font-size: 60px;
+      color: $black-color;
+      line-height: 100%;
+      display: inline-block;
+      margin-top: 96px;
+    }
+    .feature-card {
+      margin-top: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+      .feature-icon {
+        width: 60px;
+      }
+      .feature-title {
+        font-family: Mukta;
+        font-weight: bold;
+        font-size: 28px;
+        color: $black-color;
+        margin-top: 32px;
+        line-height: 130%;
+      }
+      .feature-description {
+        font-family: Mukta;
+        font-size: 18px;
+        margin-top: 16px;
+        color: $black-color;
+        line-height: 140%;
       }
     }
   }
