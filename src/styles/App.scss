@@ -1,0 +1,28 @@
+@import '~antd/dist/antd.css';
+
+$primary-color: #01178B;
+$white-color: #FFFFFF;
+
+.landing {
+  .home-section {
+    height: 563px;
+    background: $primary-color;
+    .big-title {
+      font-family: Mukta;
+      font-weight: bold;
+      font-size: 80px;
+      color: $white-color;
+      line-height: 100%;
+      display: inline-block;
+      margin-top: 90px;
+    }
+    .description {
+      font-family: Mukta;
+      font-weight: 100;
+      font-size: 24px;
+      color: $white-color;
+      display: inline-block;
+      margin-top: 24px;
+    }
+  }
+}
